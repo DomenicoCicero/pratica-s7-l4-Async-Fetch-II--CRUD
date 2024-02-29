@@ -100,7 +100,7 @@ const generateCards = query => {
         });
 
         img.addEventListener("click", e => {
-          window.location.assign(`./details.html?query=${query}?cardId=${photo.id}`);
+          window.location.assign(`./details.html?query=${query}&cardId=${photo.id}`);
         });
       });
     })
